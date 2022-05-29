@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="8"
+    android:layout_column="3"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="42dp"
+        android:clickable="true"
+        android:onClick="reset"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/b"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toBottomOf="@+id/steering"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/red"
+        android:layout_width="69dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toTopOf="@+id/steering"
+        app:layout_constraintEnd_toEndOf="@+id/green"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/green"
+        app:layout_constraintTop_toTopOf="@+id/green"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/redpng" />
+
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toTopOf="@+id/steering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greenpng" />
+
+    <ImageView
+        android:id="@+id/b"
+        android:layout_width="63dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/steering"
+        app:layout_constraintTop_toBottomOf="@+id/car2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b" />
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="62dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/steering"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/steering"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:clickable="true"
+        android:onClick="move"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        app:srcCompat="@drawable/steering" />
+
+    <ImageView
+        android:id="@+id/car2"
+        android:layout_width="93dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="28dp"
+        android:clickable="true"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="@+id/steering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/car2" />
+
+    <ImageView
+        android:id="@+id/car1"
+        android:layout_width="87dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="36dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="@+id/car2"
+        app:layout_constraintEnd_toStartOf="@+id/steering"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/steering"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/car1" />
+</android.support.constraint.ConstraintLayout>
