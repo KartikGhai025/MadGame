@@ -29,4 +29,6 @@ Game will be reset by clicking on the "Reset" Button.
 5.} TicTacToe  : https://youtu.be/-0dJhlHUK5c
 
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=40&color=EFF72C&lines=Game+Preview+%3A)](https://git.io/typing-svg)
+
 <p><img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/preview.gif"</img></p>
