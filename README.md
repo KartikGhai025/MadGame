@@ -27,3 +27,6 @@ Game will be reset by clicking on the "Reset" Button.
 4.} Animation  : https://youtu.be/53yphAmbhyU
 
 5.} TicTacToe  : https://youtu.be/-0dJhlHUK5c
+
+
+<p><img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/preview.gif"</img></p>
