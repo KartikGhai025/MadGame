@@ -16,8 +16,7 @@ Game will be reset by clicking on the "Reset" Button.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72118&lines=References)](https://git.io/typing-svg)
 
-# Yotube : CODESHALA 
-<p><img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/sub.png" height=50 width=50</img></p>
+Yotube : CODESHALA <img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/sub.png" height=70 width=70</img>
 
 1.} Button     : https://youtu.be/oCnoX8zF0Qs
 
