@@ -16,7 +16,7 @@ Game will be reset by clicking on the "Reset" Button.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72118&lines=References)](https://git.io/typing-svg)
 
-#Yotube : CODESHALA 
+# Yotube : CODESHALA 
 
 1.} Button     : https://youtu.be/oCnoX8zF0Qs
 
@@ -28,7 +28,7 @@ Game will be reset by clicking on the "Reset" Button.
 
 5.} TicTacToe  : https://youtu.be/-0dJhlHUK5c
 
-<p><img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/sub.png" height=70 width=70</img></p>
+<p><img src="https://github.com/201B172-Palash/CAR_game_Project/blob/main/sub.png" height=120 width=120</img></p>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=40&color=EFF72C&lines=Game+Preview+%3A)](https://git.io/typing-svg)
 
